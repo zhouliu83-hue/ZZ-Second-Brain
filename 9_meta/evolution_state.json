@@ -1,0 +1,79 @@
+{
+  "updated": "2026-10-12",
+  "total_real_files": 6,
+  "total_chars": 7683,
+  "inventory": [
+    {
+      "stage": "3_output",
+      "path": "7_ai_training/high_quality_examples",
+      "real": 0,
+      "chars": 0
+    },
+    {
+      "stage": "3_output",
+      "path": "7_ai_training/bad_examples",
+      "real": 0,
+      "chars": 0
+    },
+    {
+      "stage": "4_feedback",
+      "path": "7_ai_training/benchmark_outputs",
+      "real": 1,
+      "chars": 2150
+    },
+    {
+      "stage": "4_feedback",
+      "path": "7_ai_training/corrected_outputs",
+      "real": 1,
+      "chars": 1675
+    },
+    {
+      "stage": "4_feedback",
+      "path": "7_ai_training/style_alignment",
+      "real": 1,
+      "chars": 303
+    },
+    {
+      "stage": "5_extract",
+      "path": "6_memory/insights",
+      "real": 1,
+      "chars": 896
+    },
+    {
+      "stage": "5_extract",
+      "path": "6_memory/failures",
+      "real": 0,
+      "chars": 0
+    },
+    {
+      "stage": "5_extract",
+      "path": "6_memory/breakthroughs",
+      "real": 0,
+      "chars": 0
+    },
+    {
+      "stage": "5_extract",
+      "path": "6_memory/experiments",
+      "real": 0,
+      "chars": 0
+    },
+    {
+      "stage": "5_extract",
+      "path": "6_memory/observations",
+      "real": 1,
+      "chars": 738
+    },
+    {
+      "stage": "6_update",
+      "path": "3_behavior/decision_cases",
+      "real": 1,
+      "chars": 1921
+    },
+    {
+      "stage": "6_update",
+      "path": "6_memory/projects",
+      "real": 0,
+      "chars": 0
+    }
+  ]
+}

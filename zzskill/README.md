@@ -82,7 +82,7 @@
 在终端执行：
 
 ```bash
-npx -y skills add zhouliu83-hue/my-ai-os -g --all
+npx -y skills add zhouliu83-hue/ZZ-Second-Brain -g --all
 ```
 
 安装后回到 Agent，输入 `/zz 新手入门` 即可开始。
@@ -92,7 +92,7 @@ npx -y skills add zhouliu83-hue/my-ai-os -g --all
 也可以通过 Claude Code 插件市场安装完整工具箱：
 
 ```bash
-claude plugin marketplace add zhouliu83-hue/my-ai-os
+claude plugin marketplace add zhouliu83-hue/ZZ-Second-Brain
 claude plugin install zz@zhouzheng-skills
 ```
 
@@ -145,7 +145,7 @@ zzskill 每次只处理一个当前任务。单个 Skill 能覆盖时保持简�
 - [Markdown 阅读版](books/dontbesilent-开源推文集.md)：适合搜索、复制和交给 AI 分析。
 - [PDF 阅读版](books/dontbesilent-开源推文集.pdf)：适合完整阅读和下载保存。
 
-推文集与 Skills 安装包相互独立。执行 `npx -y skills add zhouliu83-hue/my-ai-os -g --all` 时，安装的是 Skills，不会自动下载推文集。
+推文集与 Skills 安装包相互独立。执行 `npx -y skills add zhouliu83-hue/ZZ-Second-Brain -g --all` 时，安装的是 Skills，不会自动下载推文集。
 
 ![zzskill 知识来源图](docs/knowledge-pipeline.svg)
 

@@ -4,7 +4,7 @@
     "name": "zhouliu83-hue"
   },
   "metadata": {
-    "description": "商业诊断工具箱（改编自 dontbesilent2025/dbskill，CC BY-NC 4.0） — 将累计推文中经过筛选的内容整理为 4176 个知识原子、32 个商业 Skill 和 1 个系统更新入口（本清单位于 my-ai-os 根目录，Skill 实体在 zzskill/ 下）",
+    "description": "商业诊断工具箱（改编自 dontbesilent2025/dbskill，CC BY-NC 4.0） — 将累计推文中经过筛选的内容整理为 4176 个知识原子、32 个商业 Skill 和 1 个系统更新入口（本清单位于 ZZ-Second-Brain 根目录，Skill 实体在 zzskill/ 下）",
     "version": "2.18.40"
   },
   "plugins": [

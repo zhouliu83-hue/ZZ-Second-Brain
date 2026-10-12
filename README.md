@@ -18,19 +18,34 @@
 ## 系统结构
 
 ```
-my-ai-os/
+ZZ-Second-Brain/
 ├── 0_system/          # 系统规则与协议
 ├── 1_identity/        # 人格与身份
 ├── 2_cognition/       # 思维与认知
 ├── 3_behavior/        # 行为与执行
+│   └── decision_cases/# 真实决策轨迹 ← 不可替代的资产
 ├── 4_expression/      # 表达与创作
 ├── 5_business/        # 商业与变现
 ├── 6_memory/          # 记忆与经验
 ├── 7_ai_training/     # AI 训练数据
+│   └── benchmark_outputs/ # 人格一致性基准测试
 ├── 8_contexts/        # 上下文管理
 ├── 9_meta/            # 元数据与进化
-└── AI_START.md        # AI 读取入口
+├── tools/             # 可执行装置（机检 + 闭环扫描）
+└── AGENTS.md          # AI 读取入口
 ```
+
+## 这个系统在进化吗
+
+`tools/evolve.py` 会扫描六个沉淀目录，报告哪些还是空模板：
+
+```bash
+python tools/evolve.py
+```
+
+输出的"总计：N 份实际内容"是**唯一客观指标**，不靠感觉判断。
+如果长期不变，说明系统已停转——此时继续往 `0_system/` 加规则
+只会让规则更厚、判断不会更准。
 
 ## 核心原则
 
