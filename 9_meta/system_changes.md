@@ -34,6 +34,14 @@ YYYY-MM-DD | 文件 | 变更类型 | 变更说明
 2026-10-12 | zzskill/README.md | fix | 3 处安装命令仓库名 my-ai-os → ZZ-Second-Brain
 2026-10-12 | .claude-plugin/marketplace.json | fix | 描述里的旧仓库名
 
+2026-10-12 | tools/capture.py | add | 新增。会话采集器，读 AI 客户端本地日志生成待审草稿
+2026-10-12 | tools/launcher.py | add | 新增。一键装 hook + 定时采集，含 status/uninstall
+2026-10-12 | tools/install_hooks.py | add | 新增。沉淀守卫：改了核心规则不记日志就拦 commit
+2026-10-12 | tools/LAUNCHER_启动器说明.md | add | 新增。启动器说明，含各客户端可采集性实测结论
+2026-10-12 | 8_contexts/README_inbox.md | add | 新增。待审草稿区说明与处理三问
+2026-10-12 | 0_system/evolution_protocol.md | edit | 新增启动器章节、自动化边界表、inbox 清理步骤
+2026-10-12 | tools/README.md | rewrite | 补齐五个脚本说明与已知限制
+
 ## 这份日志本身曾经是空的
 
 2026-05-10 到 2026-10-12，中间五次提交没有留下任何变更记录。
